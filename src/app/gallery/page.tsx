@@ -8,19 +8,7 @@ import { motion } from "framer-motion";
 export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      {/* Navbar */}
-      <nav className="fixed top-0 w-full bg-white shadow z-50 px-6 md:px-20 py-4 flex justify-between items-center">
-        <div className="text-xl font-bold">Kuthal House</div>
-        <div className="space-x-6 text-sm hidden md:flex">
-          <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/cafe" className="hover:underline">Café</Link>
-          <Link href="/gallery" className="hover:underline font-semibold">Gallery</Link>
-          <Link href="/homestay" className="hover:underline">Homestay</Link>
-          <Link href="/shop" className="hover:underline">Shop</Link>
-          <Link href="/publishing" className="hover:underline">Publishing</Link>
-          <Link href="/contact" className="hover:underline">Contact</Link>
-        </div>
-      </nav>
+    
 
       <div className="pt-20">
         {/* Hero Section */}
