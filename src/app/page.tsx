@@ -26,7 +26,10 @@ export default function HomePage() {
                 A peaceful creative haven near Kuthal Gate, on the foothills of Mussoorie — where sculpture, spirituality, and hospitality come together.
               </p>
               <Link href="/gallery">
-                <Button className="bg-white text-black hover:bg-gray-200">Explore Kuthal House</Button>
+              <Button className="bg-white text-gray-800 hover:bg-gray-100 hover:text-black border border-gray-300">
+  Explore Kuthal House
+</Button>
+
               </Link>
             </motion.div>
           </div>
