@@ -26,7 +26,8 @@ export default function Navbar() {
       {/* Hamburger Icon */}
       <div className="md:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
-          {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6 text-black" />
+          }
         </button>
       </div>
 
