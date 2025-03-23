@@ -1,7 +1,6 @@
 'use client';
 
 import React from "react";
-import Link from "next/link";
 import { Instagram, Facebook } from "lucide-react";
 import { motion } from "framer-motion";
 
